@@ -6,7 +6,7 @@ import csv
 
 code = 'BBY'
 main_api = ('https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=' +
-            code + '&apikey=RYFJGY3O92BUEVW4')
+            code + '&apikey=ENTER YOUR API KEY HERE')
 url  = main_api + urllib.parse.urlencode({'NYSE': code})
 
 json_data = requests.get(url).json()
